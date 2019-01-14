@@ -1,0 +1,484 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            4.5792215000000738,
+            51.917903600000045,
+            0
+          ],
+          [
+            4.5804339000000596,
+            51.917625700000031,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 1,
+        "Name" : "Hollandse IJselDam",
+        "FolderPath" : "Dijken/Naamloze laag",
+        "SymbolID" : 0,
+        "AltMode" : 0,
+        "Base" : 0,
+        "Clamped" : -1,
+        "Extruded" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "De Hollandse IJssel verbindt Rotterdam met de Noordzee. In het geval van een overstroming kan de rivier zijn water moeilijk kwijt, omdat het opkomende zeewater het rivierwater tegenhoudt. Daardoor zou de Hollandse IJssel gemakkelijk uit haar oevers kunnen treden. Er waren twee belangrijke redenen om een oplossing te vinden voor het overstromingsgevaar: ten eerste is het gebied langs de Hollandse IJssel een van de laagst gelegen gebieden van Nederland en ten tweede is het een van de drukst bevolkte gebieden van Nederland.",
+        "Shape_Length" : 0.0012438416981166295
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            4.5785699000000477,
+            51.91674990000007,
+            0
+          ],
+          [
+            4.5797715000000494,
+            51.916472000000056,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 2,
+        "Name" : "Hollandse IJselDam",
+        "FolderPath" : "Dijken/Naamloze laag",
+        "SymbolID" : 0,
+        "AltMode" : 0,
+        "Base" : 0,
+        "Clamped" : -1,
+        "Extruded" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "Shape_Length" : 0.001233317059807483
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            3.8648780000000329,
+            51.544805200000042,
+            0
+          ],
+          [
+            3.8668521000000737,
+            51.539306900000042,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 3,
+        "Name" : "De Zandkreekdam",
+        "FolderPath" : "Dijken/Naamloze laag",
+        "SymbolID" : 0,
+        "AltMode" : 0,
+        "Base" : 0,
+        "Clamped" : -1,
+        "Extruded" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "Shape_Length" : 0.0058419494777131901
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            3.6821831000000316,
+            51.600676200000066,
+            0
+          ],
+          [
+            3.6841599000000542,
+            51.615043400000047,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 4,
+        "Name" : "De Oosterscheldekering",
+        "FolderPath" : "Dijken/Naamloze laag",
+        "SymbolID" : 0,
+        "AltMode" : 0,
+        "Base" : 0,
+        "Clamped" : -1,
+        "Extruded" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "Shape_Length" : 0.014502557501335575
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            3.8674750000000699,
+            51.781174200000066,
+            0
+          ],
+          [
+            3.8624539000000482,
+            51.77405820000007,
+            0
+          ],
+          [
+            3.8604369000000247,
+            51.770499700000073,
+            0
+          ],
+          [
+            3.8576474000000758,
+            51.766277000000059,
+            0
+          ],
+          [
+            3.8552013000000329,
+            51.763886700000057,
+            0
+          ],
+          [
+            3.8511672000000203,
+            51.761443000000043,
+            0
+          ],
+          [
+            3.8483348000000319,
+            51.760247700000036,
+            0
+          ],
+          [
+            3.841511300000036,
+            51.75846800000005,
+            0
+          ],
+          [
+            3.8348165000000449,
+            51.756475700000067,
+            0
+          ],
+          [
+            3.8314691000000494,
+            51.755147400000055,
+            0
+          ],
+          [
+            3.827563800000064,
+            51.752543900000035,
+            0
+          ],
+          [
+            3.8255468000000405,
+            51.749807400000066,
+            0
+          ],
+          [
+            3.8246884000000705,
+            51.745821900000067,
+            0
+          ],
+          [
+            3.8243880000000559,
+            51.743563300000062,
+            0
+          ],
+          [
+            3.8246026000000484,
+            51.740587100000027,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 5,
+        "Name" : "Lijn 7",
+        "FolderPath" : "Dijken/Naamloze laag",
+        "SymbolID" : 0,
+        "AltMode" : 0,
+        "Base" : 0,
+        "Clamped" : -1,
+        "Extruded" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "Shape_Length" : 0.064141717483392091
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            4.0555839000000447,
+            51.837123800000029,
+            0
+          ],
+          [
+            4.043739300000027,
+            51.828425300000049,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 6,
+        "Name" : "Haringvlietdam",
+        "FolderPath" : "Dijken/Naamloze laag",
+        "SymbolID" : 0,
+        "AltMode" : 0,
+        "Base" : 0,
+        "Clamped" : -1,
+        "Extruded" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "Shape_Length" : 0.014695524876984459
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            4.0944651000000363,
+            51.66796800000003,
+            0
+          ],
+          [
+            4.0996149000000628,
+            51.671161900000072,
+            0
+          ],
+          [
+            4.1038206000000628,
+            51.673078200000077,
+            0
+          ],
+          [
+            4.1081980000000726,
+            51.674089500000036,
+            0
+          ],
+          [
+            4.1121462000000406,
+            51.67440890000006,
+            0
+          ],
+          [
+            4.1469935000000646,
+            51.678028100000063,
+            0
+          ],
+          [
+            4.1529075000000262,
+            51.68000980000005,
+            0
+          ],
+          [
+            4.1576269000000252,
+            51.683356600000081,
+            0
+          ],
+          [
+            4.1605451000000357,
+            51.685591600000066,
+            0
+          ],
+          [
+            4.1634633000000463,
+            51.687400800000034,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 7,
+        "Name" : "De Grevelingendam",
+        "FolderPath" : "Dijken/Naamloze laag",
+        "SymbolID" : 0,
+        "AltMode" : 0,
+        "Base" : 0,
+        "Clamped" : -1,
+        "Extruded" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "Shape_Length" : 0.073302176944648745
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            4.3074555000000601,
+            51.866839300000038,
+            0
+          ],
+          [
+            4.307466100000056,
+            51.864464300000066,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 8,
+        "Name" : "De Hartelkering",
+        "FolderPath" : "Dijken/Naamloze laag",
+        "SymbolID" : 0,
+        "AltMode" : 0,
+        "Base" : 0,
+        "Clamped" : -1,
+        "Extruded" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "Shape_Length" : 0.0023750236545912865
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            5.040399500000035,
+            52.933710000000076,
+            0
+          ],
+          [
+            5.0670929000000342,
+            52.946951700000056,
+            0
+          ],
+          [
+            5.0782508000000348,
+            52.952950600000065,
+            0
+          ],
+          [
+            5.0907821000000695,
+            52.959672400000045,
+            0
+          ],
+          [
+            5.1048584000000687,
+            52.966961800000036,
+            0
+          ],
+          [
+            5.1139564000000632,
+            52.971769100000074,
+            0
+          ],
+          [
+            5.1294059000000516,
+            52.979728300000033,
+            0
+          ],
+          [
+            5.1492328000000498,
+            52.990269400000045,
+            0
+          ],
+          [
+            5.1751537000000667,
+            53.004010300000061,
+            0
+          ],
+          [
+            5.1955814000000373,
+            53.014752100000067,
+            0
+          ],
+          [
+            5.2459704000000329,
+            53.041105500000072,
+            0
+          ],
+          [
+            5.2731609000000503,
+            53.055315500000063,
+            0
+          ],
+          [
+            5.2880070000000501,
+            53.063105200000052,
+            0
+          ],
+          [
+            5.295603700000072,
+            53.067102300000045,
+            0
+          ],
+          [
+            5.3003467000000342,
+            53.068662200000063,
+            0
+          ],
+          [
+            5.3059483000000682,
+            53.069448300000033,
+            0
+          ],
+          [
+            5.3377056000000493,
+            53.074502000000052,
+            0
+          ],
+          [
+            5.3468037000000663,
+            53.075636400000064,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 9,
+        "Name" : "De Afsluitdijk",
+        "FolderPath" : "Dijken/Naamloze laag",
+        "SymbolID" : 0,
+        "AltMode" : 0,
+        "Base" : 0,
+        "Clamped" : -1,
+        "Extruded" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "Shape_Length" : 0.33994789333919856
+      }
+    }
+  ]
+}
