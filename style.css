@@ -1,0 +1,229 @@
+body {
+      font-family: 'Fira Sans', sans-serif;
+/*      color: black;*/
+      background-color: white;
+  }
+.iframe1 {
+    
+    padding-left: 30px;
+}
+.iframe2 {
+
+    padding-left: 30px;
+}
+        
+
+/*  h3{
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 4px;
+      color: #244226;
+  }*/
+h4{
+     font-family: 'Libre Franklin', sans-serif;
+    color: #244226;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #244226;
+    font-size: 3em;
+    letter-spacing: 5px;}
+}
+h6{
+    color: red;
+}
+.thumbnail .test h4 {
+    color: red;
+}
+
+/*over deltas tekst*/
+/*  .container{
+      color: #244226;
+      padding: 30px 120px;
+  }*/
+.trans {
+    font-size: 1.6em;
+    text-align: ;
+        }
+/*deltas in transitie fasen*/
+.jumbotron h4{      
+    font-family: 'Libre Franklin', sans-serif;
+    color: #244226;
+    font-size: 3em;
+    letter-spacing: 5px;}
+
+  .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(80%); /* make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin:inherit;
+  }
+          .jumbotron {
+      background-color: #5e9f7e;
+      color: #fff;
+      padding: 10px 10px;
+  }
+        
+          .jumbotron1 {
+      background-color: white;
+      color: #fff;
+      padding: 10px 10px;
+  }
+
+        
+.jumbotron1 h4{      
+      font-family: 'Libre Franklin', sans-serif;
+    color: red;
+    font-size: 3em;
+    letter-spacing: 5px;}   
+        
+        .jumbotron1 p{
+            color: black;
+        }
+        
+  .carousel-caption h3 {
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 550;
+/*       background-color: #a9c7b7 !important;*/
+      font-size: 2em;
+      letter-spacing: 5px;   
+      color: #b4c172;
+  }
+ 
+  }
+  .bg-1 {
+      background: #a9c7b7;
+      color: #a9c7b7;
+  }
+  .bg-1 h3 {color: #000;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+/*onderzoek gedeelte*/
+.bg-4{
+    background-color: #a9c7b7;
+        }
+
+
+  .thumbnail {
+      padding: 0 0 15px 0;
+      background-color: transparent;
+/*      border-radius: 0;*/
+/*      background-color:#a9c7b7;*/
+  }
+        .thumbnail h3{
+            font-size: 5em;
+        }
+  .onderzoek{
+      color: black;
+        }
+/*onderzoek gedeelte thumbnail*/
+  .thumbnail p {
+      margin-top: 15px;
+/*      color: #555;*/
+  }
+        .iframe{
+/*            background-color: #a9c7b7!important;*/
+        }
+        
+/*Over IVM*/
+.ivm h3 {
+    font-family: 'Lora', serif;
+    color: #244226;
+    font-size: 3em;    
+        }
+  .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+        
+  .nav-tabs li a {
+      color: #777;
+  }
+
+  .navbar {
+      font-family: 'Libre Franklin', sans-serif;
+      margin-bottom: 0;
+      background-color: #b4c172;
+      border: 0;
+      font-size: 1.5em !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      height: 90px;
+  }
+.navbar-brand {
+      padding-top: 9px;
+/*      color: #9f5e7f!important;*/
+  }
+.navbar-collapse {
+    padding-top: 23px;
+color: #9f5e7f!important;
+
+}
+  .navbar-nav li a:hover {
+      color: purple!important;
+  }
+  .navbar-nav li.active a {
+      color: #244226!important;
+      background-color:#a9c7b7!important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #244226;
+      background-color: #a9c7b7 !important;
+  }
+  .dropdown-menu li a {
+      color: #9f5e7f!important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: #5e9f7e!important;
+  }
+ 
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+/*  .jumbotron {
+      background-color: #b4c172;
+      color: #b4c172;
+     font-family: 'Lora', serif;
+      color: #9f5e7f!important;
+  }*/
+        
+/*contact formulier*/
+ .container .row {
+                  margin:inherit;
+        }
+        .contact h3{
+            font-size: 5em;
+        }
+        .thumbnail   h1 {
+            font-size: 3em;
+      font-family: 'Libre Franklin', sans-serif;
+            color: #244226;
+        }
+#map {
+height: 500px;
+width:100%;
+}       
