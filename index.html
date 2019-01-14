@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IVM</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="leaflet, delta, galveston, nederland, ivm, onderzoek, geologie, geomorfologie, rivieren, rijn, maas, trinity, brazos, houston, dijken, neerslag" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:500" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer-distributed-with-contact-form.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage" data-toggle="tooltip">
+                    <img src="images/logotest.svg" width="110" height="90" alt="">
+
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left">
+                    <!--                    <li><a href="#myPage">HOME</a></li>-->
+                    <li><a href="#deltas">Over delta's</a></li>
+                    <li><a href="#onderzoek">Onderzoek</a></li>
+                    <li><a href="#over IVM">Over IVM</a></li>
+                    <li><a href="#webkaart">Webkaart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/maestlantkering.jpg" alt="0">
+                <div class="carousel-caption">
+                    <h3>Maestlantkering</h3>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/galbay2.png" alt="1">
+                <div class="carousel-caption">
+                    <h3>Galveston</h3>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/ikedyke.jpg" alt="1">
+                <div class="carousel-caption">
+                    <h3>Ike Dike </h3>
+
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/nederland2.jpg" alt="3">
+                <div class="carousel-caption">
+                    <h3>Nijmegen</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br>
+    <br>
+    <!-- over delta's gedeelte -->
+    <div id="deltas" class="container py-5 mb-5">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="jumbotron text-center">
+                    <p class="text-justify">
+                        <h2>Delta's</h2>
+                        <p><em>Een delta is een accumulatie van riviersediment in een waterlichaam zoals een zee of een meer. Een delta heeft een karakteristieke waaiervorm en wordt gevormd volgens een bepaalde sedimentaire opbouw. De Griekse historicus Herodotus voerde deze naam in toen hij de Nijl beschreef in zijn Historiën en de opvallende vorm op de Griekse hoofdletter delta (Δ) vond lijken. De Nijl heeft dan ook een van de bekendste rivierdelta's.</em></p>
+                        <p><em>Delta's zijn dikwijls vruchtbaar en dichtbevolkt. Hun ligging aan zee maakt ze kwetsbaar voor overstromingen. Vaak is ook de natuurwaarde van een delta hoog. Veel rivierdelta's zijn laaggelegen. De dichtbevolkte rivierdelta's zijn dan ook kwetsbaar voor gevolgen van de klimaatverandering. Stadsbesturen van deltasteden over de hele wereld werken samen in het initiatief Connecting Delta Cities om de gevolgen van de klimaatverandering in goede banen te leiden.</em></p>
+                        <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Onderzoek gedeelte -->
+    <div id="onderzoek" class="bg-4">
+        <br>
+        <br>
+        <div class="container-fluid onderzoek text-center">
+            <h2 class="text-center">Onderzoek RMS & Galveston Bay delta</h2>
+            <div class="row text-justify">
+                <div class="col-xs-6">
+                    <div class="thumbnail">
+                        <h4>RMS (Rijn, Maas en Schelde)</h4>
+                        <div class="iframe1"><iframe width="700" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="RMS" src="//aereshogeschool.maps.arcgis.com/apps/Embed/index.html?webmap=bde5ec9d61d341d285a60313f6190c24&extent=1.1182,50.7095,11.8739,53.7365&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+
+                        <p>In de Nederlandse RMS-delta zijn stedelijke ontwikkeling en waterbeheer door de eeuwen heen sterk met elkaar verwant geweest. In 2008 heeft de Nederlandse regering een Deltacommissie ingesteld, die een fundamentele actualisering van de waterkering in Nederland heeft aanbevolen, die moet leiden tot een nieuw 'delta-programma'. Een van de meest urgente problemen in dit deltaprogramma is de toekomst van de Rotterdamse regio en de Zuidwestelijke delta. De Rijn-Maas-Schelde Delta bevat een patroon van compacte middelgrote steden, resulterend in het ontstaan van de zogeheten Randstad als een hoofdagglomeratie met 6,5 miljoen inwoners.
+                        </p>
+                        <h4>Geografie</h4>
+                        <div class="infogram-embed" data-id="f663d604-3eee-40e2-ab8d-fa06c0bcd015" data-type="interactive" data-title="Infographic RMS"></div><script>!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/f663d604-3eee-40e2-ab8d-fa06c0bcd015" style="color:#989898!important;text-decoration:none!important;" target="_blank">Infographic RMS</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <h4>Geomorfologie</h4>
+
+                        <p>De situatie van de Rijn, Maas en Scheldedelta wordt bepaald door het transport van riviersedimenten, gecombineerd met sterke getijdenbewegingen en zeestromingen. Het resultaat is een delta met zand barrièrekustlijn van stranden en duinen voor de alluviale wetlands. Gedurende vele eeuwen werd het westelijke deel van de lagune opgevuld met vegetatie, wat resulteerde in veenlagen van vier tot zes meter dik. Dit veenlandschap was verweven met een vasculair netwerk van kreken en riviertjes, dat functioneerde als een natuurlijk afwateringssysteem. Bovendien zorgden zware stormen voor nieuwe zeearmen in het zuidwesten en kwam het Almeremeer in open verbinding met de zee, waardoor de Zuiderzee ontstond.
+                        In dit proces vond de Rijn een nieuwe uitmonding naar de zee in het zuiden, verweven met de Maas en creëerde een landschap van estuaria, wetlands en eilanden dat we vandaag de dag de Zuidwestelijke Delta noemen.
+                        </p>
+                        <br>
+
+                        <h4>Hoogwater in rivieren Nederland</h4>
+
+                        <p>Hoge waterstanden in de rivieren in de winter en het begin van de lente zijn geen uitzondering. In de winter is er door de lagere temperaturen minder verdamping waardoor de grond eerder verzadigd raakt. Ook bevroren grond neemt geen neerslag op. De rivieren moeten dus meer neerslag afvoeren dan in de andere seizoenen. In zachte winterperiodes en in het vroege voorjaar komt daar ook smeltwater bij.</p>
+                        <p>Hoogwater in de toekomst: <br>
+                        Door klimaatverandering neemt de hoeveelheid neerslag in de winter toe. Een goede maat voor hoogwater op grote rivieren is de grootste 10-daagse neerslaghoeveelheid die eens in de 10 jaar voorkomt. Het KNMI heeft uitgerekend dat die in de winter rond 2085 is toegenomen met 8 tot 25 procent. Hogere temperaturen in de Alpen zullen er bovendien toe leiden dat er minder tijdelijke opslag van neerslag in de vorm van sneeuw plaatsvindt. Zeespiegelstijging tot slot, leidt ertoe dat de rivieren het overtollige water moeilijker kunnen afvoeren naar zee.</p>
+                        <p>Het KNMI heeft samen met hydrologen van onderzoeksinstituut Deltares berekend wat dat betekent voor toekomstige piekafvoeren van Rijn en Maas. Hieruit blijkt dat voor de Rijn een afvoer van ruim 12.000 kubieke meter per seconde (overeenkomend met de hoogwaters van 1993 en 1995) niet langer gemiddeld eens per 100 jaar voorkomt, maar eens per 30 jaar in 2050 en in sommige scenario’s vaker dan eens per 10 jaar in 2085. <br>
+                        <br>Niet alleen de hogere waterafvoeren vergroten het overstromingsrisico, maar ook het vaker voorkomen van deze hoogwaters. De kans op het doorbreken van dijken neemt immers toe als ze vaker zwaar belast worden.</p>
+                        
+                        <p>In 2085 stijgt de zeespiegel met 25 tot <strong>80cm</strong></p>
+                        <br>
+                        <br>
+                        <br>
+                        <img src="images/nederlandwater.png" class=" img-fluid" alt="Random Name" width="600" height="600">
+
+
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="thumbnail thumbnailll style="text-justify"">
+                        <h4>Galveston Bay</h4>
+                        <div class="iframe2"><iframe width="700" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Houston" src="//aereshogeschool.maps.arcgis.com/apps/Embed/index.html?webmap=68ce4bc8fdf644f583b6b543fa0798b6&extent=-96.2223,28.8633,-93.5334,30.0495&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+
+                        <p>Galveston Bay is de grootste baai van Texas en beslaat ongeveer 1553.993 km2 . De Galveston Bay stroomgebied - het gebied dat uitmondt in een bepaald waterlichaam - is ongeveer 62159.71 km2 groot. Het strekt zich uit over het noorden vanaf het grootstedelijk gebied Houston, langs het bekken van de Trinity River en langs het gebied Dallas-Fort Worth. De helft van de bevolking van Texas woont momenteel in het stroomgebied van de Galveston Bay.</p>
+                        <p>Houston Metropolitan Area heeft een bevolking van 6,2 miljoen inwoners
+                            en groeit nog steeds snel. 35 km2
+                            (1,6%) van het stedelijk gebied
+                            bevindt zich in de uiterwaarden</p>
+
+                        <h4>Geografie</h4>
+
+                        <div class="infogram-embed" data-id="ac7e0ce1-36c6-4168-a1b5-127919520d77" data-type="interactive" data-title="Infographic Galveston"></div><script>!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/ac7e0ce1-36c6-4168-a1b5-127919520d77" style="color:#989898!important;text-decoration:none!important;" target="_blank">Infographic Galveston</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h4>Geomorfologie</h4>
+                        <p>Zeven rivieren bedienen de bovenste Texaanse kustlijn. Deze rivieren, de Sabine, de Neches, de Trinity, de San Jacinto, de Brazos, de San Bernard en de Colorado lopen uit in een reeks baaien achter barrière-eilanden.
+                        De dikke laag klei en zand die onder de regio ligt is het resultaat van deze rivieren die sediment van de Rocky Mountain naar de zee brachten.
+                        Het land is overweldigend vlak. Op veel plaatsen is het moeilijk te zeggen waar het land begint en de zee eindigt.
+                        De vlakheid van het land in de nabijheid van een warme zee brengt het gebied in gevaar voor zware weersomstandigheden zoals de Grote Orkaan van 1900 en de vele andere orkanen sindsdien herhaaldelijk hebben laten zien. Maar de regio wordt ook bedreigd met andere soorten zwaar weer. Regen valt in een tempo dat in andere regio's onbekend is.
+                        Onder de oppervlaktelagen van slib,zand en klei zijn diepere leisteenlagen. En daaronder bevinden zich olie en gas die de economie van de regio hebben ondersteund.
+                        </p>
+                        <br>
+                        <h4>Overstromingsgevaar</h4>
+                        <p>De regio Galveston Bay heeft een lange geschiedenis van zeespiegelstijging, bodemdaling, stormvloeden en overstromingen. Naarmate de zeespiegel blijft stijgen, zullen de periodieke overstromingen als gevolg van stormvloeden en extreme neerslag waarschijnlijk verergeren. Overstromingen kunnen zeer gevaarlijk zijn, en de schade die hieruit voortvloeit is extreem duur. Menselijke gemeenschappen zijn niet de enige die gevaar lopen door de stijging van de zeespiegel.</p>
+                        <p>De National Oceanic and Atmospheric Administration (NOAA) meet het zeeniveau vanaf Pier 21 aan de baaizijde van Galveston Island. Galveston heeft een van de hoogste gemeten zeespiegelstijging in het land.
+                        Sinds 1900, hebben vijftien orkanen stormvloedgolfen veroorzaakt die 1m bij Eiland Galveston overschrijden, drie waarvan schommeling meer dan 3m veroorzaakten.</p>
+                        <p><strong>6,62mm</strong> stijging per jaar</p>
+                        <p>De haven van Houston, toegankelijk via het Houston Ship Channel, is uitgegroeid tot een van de drukste havens ter wereld, en de bijbehorende industrie is een belangrijke economische kracht. Stedelijke gebieden hebben zich uitgestrekt naar de kust toe. Tegelijkertijd zijn wetlands en waterscheidingen aan de kust verhard, waardoor een toenemend aantal mensen en bedrijven het risico van overstromingen lopen. <br>
+                        <br>Overstroming van kritieke infrastructuur, veroorzaakt door zowel hevige regenval als stormvloed, kan potentieel de lokale en nationale economie verwoesten en onherstelbare milieuschade toebrengen aan het ecosysteem van Galveston Bay.</p>
+                            <br>
+                            <br>
+                            <br>
+                        <img src="images/testgif.gif" class=" img-fluid" alt="Random Name" width="600" height="600">
+                    </div>
+                    <div id="galbay1" class="collapse">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="over IVM" class="container-fluid ivm ">
+        <div class="jumbotron1 jumbotron-fluid">
+            <div class="container">
+                <div class="jumbotron1 text-center">
+                    <p class="text-justify">
+                        <h2>Over IVM</h2>
+                        <p>Het instituut voor Milieuvraagstukken van de Vrije Universiteit Amsterdam is als oudste universitaire milieuonderzoeksintituut sinds 1971 bezig met het onderzoeken van complexe milieuvraagstukken. Bij het IVM werken ongeveer 140 mensen waarvan 140 als onderzoeken. De doelstelling van het IVM is om bij te dragen aan een duurzame ontwikkelingen en om het milieu te behouden en te verbeteren. Dit doet het instituut door onderzoek en onderwijs aan te bieden. Het instituut voert veel verschillende onderzoeken uit in opdracht voor nationale en regionale overheden, de Europese Unie en bedrijven. </p>
+
+                        <p>Delta's zijn dikwijls vruchtbaar en dichtbevolkt. Hun ligging aan zee maakt ze kwetsbaar voor overstromingen. Vaak is ook de natuurwaarde van een delta hoog. Veel rivierdelta's zijn laaggelegen. De dichtbevolkte rivierdelta's zijn dan ook kwetsbaar voor gevolgen van de klimaatverandering. Stadsbesturen van deltasteden over de hele wereld werken samen in het initiatief Connecting Delta Cities om de gevolgen van de klimaatverandering in goede banen te leiden.</p>
+                        <br>
+                        <img src="images/animelogo.gif" alt="Chicago" width="<42></42>0" height="300">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>IVM<span></span></h3>
+            <p class="footer-company-name">IVM &copy; 2019</p>
+            <div class="footer-icons">
+               <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                <a href="https://nl.linkedin.com/" class="fa fa-linkedin"></a>
+                <a href="https://github.com/" class="fa fa-github"></a>
+            </div>    
+        </div>
+        <div class="footer-right">
+            <p>Contact Us</p>
+            <form action="#" method="post">
+                <input type="text" name="email" placeholder="Email" />
+                <textarea name="message" placeholder="Message"></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+    </footer>
+
+    <!--   webkaart-->
+    <div id="webkaart">
+        <div id="map"></div>
+
+        <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+        <script src="main.js"></script>
+    </div>
+    
+</body>
+</html>
