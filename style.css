@@ -1,0 +1,184 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: white;
+}
+
+.iframe1 {
+    padding-left: 30px;
+}
+
+.iframe2 {
+    padding-left: 30px;
+}
+
+h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #244226;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #244226;
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+h6 {
+    color: red;
+}
+
+.thumbnail .test h4 {
+    color: red;
+}
+
+.trans {
+    font-size: 1.6em;
+}
+
+.jumbotron h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #244226;
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(80%);
+    /* make all photos black and white */
+    width: 100%;
+    /* Set width to 100% */
+    margin: inherit;
+}
+
+.jumbotron {
+    background-color: #5e9f7e;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.jumbotron1 {
+    background-color: white;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.jumbotron1 p {
+    color: black;
+    font-size: 1em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.carousel-caption h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    /*       background-color: #a9c7b7 !important;*/
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: #b4c172;
+}
+
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/*onderzoek gedeelte*/
+.bg-4 {
+    background-color: #a9c7b7;
+}
+
+.thumbnail {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    /*      border-radius: 0;*/
+    /*      background-color:#a9c7b7;*/
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+.nav-tabs li a {
+    color: #777;
+}
+
+.navbar {
+    font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: 0;
+    background-color: #b4c172;
+    border: 0;
+    font-size: 1.5em !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    height: 90px;
+}
+
+.navbar-brand {
+    padding-top: 9px;
+    /*      color: #9f5e7f!important;*/
+}
+
+.navbar-collapse {
+    padding-top: 23px;
+    color: #9f5e7f !important;
+
+}
+
+.navbar-nav li a:hover {
+    color: purple !important;
+}
+
+.navbar-nav li.active a {
+    color: #244226 !important;
+    background-color: #a9c7b7 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.open .dropdown-toggle {
+    color: #244226;
+    background-color: #a9c7b7 !important;
+}
+
+.dropdown-menu li a {
+    color: #9f5e7f !important;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #5e9f7e !important;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
